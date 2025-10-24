@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: red;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  color: blue;
+  font-family: Arial, sans-serif;
+}
+
+/* important class to force blue color */
+.important {
+  color: blue !important;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+body {
+  font-family: "comic sans ms", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 46px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  table-layout: auto;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
